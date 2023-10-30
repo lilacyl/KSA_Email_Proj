@@ -1,4 +1,5 @@
 def extract_email_body(filename):
+    print(f"Extracting: {filename}")
     with open(filename, 'r') as f:
         lines = f.readlines()
         
@@ -14,5 +15,5 @@ def extract_email_body(filename):
     return ''.join(extracted_lines)
 
 # Example
-filename = 'maildir/arora-h/all_documents/1.'
-print(extract_email_body(filename))
+# filename = 'maildir/arora-h/all_documents/1.'
+# print(extract_email_body(filename))

@@ -3,4 +3,4 @@ def out_cleaned_email(fileName, content):
         file.write(content)
 
 
-out_cleaned_email("testfile.txt", "blablablab")
+# out_cleaned_email("testfile.txt", "blablablab")
